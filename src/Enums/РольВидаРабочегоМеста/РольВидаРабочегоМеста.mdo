@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c34e97fa-9162-46b7-af23-761d238ae7e7">
+  <producedTypes>
+    <refType typeId="a1eab348-fad0-4b9c-9dce-2581016ec850" valueTypeId="1d7ac345-6c81-4ecf-a3b0-5d341f379918"/>
+    <listType typeId="628a9455-db20-4e08-b13b-80d7a20ecdc1" valueTypeId="e0f35042-9c21-4f40-b045-fca883769341"/>
+    <managerType typeId="8b2e3917-e2f3-4b79-a19a-db68817410e2" valueTypeId="b00db1aa-28b0-4374-aab8-45fcd39280ea"/>
+  </producedTypes>
+  <name>РольВидаРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль вида рабочего места</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6ccfb7a-1ea0-4312-9813-d9dc70896129">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50775774-c3c6-4433-9263-104ff3387502">
+    <name>ГотовкаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовка заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b828099-351f-46a4-ad5f-b1aaa3376ccc">
+    <name>ВыдачаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd4a0789-c468-4875-8fb4-3e1e80a5b3a5">
+    <name>АдминистративныеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административные операции</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

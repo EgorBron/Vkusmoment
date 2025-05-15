@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<diagram>
+	<tab name="Вкусмомент" projectName="Вкусмомент;">
+		<entities>
+			<entity x="-786" y="286" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.ТипФилиала#/">
+			</entity>
+			<entity x="-596" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Сотрудники#/">
+			</entity>
+			<entity x="-786" y="487" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.Пол#/">
+			</entity>
+			<entity x="364" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Филиалы#/">
+			</entity>
+			<entity x="604" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Поставщики#/">
+			</entity>
+			<entity x="-356" y="191" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.КатегорииПродукции#/">
+			</entity>
+			<entity x="1084" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Клиенты#/">
+			</entity>
+			<entity x="124" y="191" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.ОбъектМеню#/">
+			</entity>
+			<entity x="-786" y="353" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.РольВидаРабочегоМеста#/">
+			</entity>
+			<entity x="-356" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.ВидРабочегоМеста#/">
+			</entity>
+			<entity x="-786" y="420" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.ЕдиницыИзмерения#/">
+			</entity>
+			<entity x="844" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.СпособыОплаты#/">
+			</entity>
+			<entity x="364" y="191" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Меню#/">
+			</entity>
+			<entity x="-836" y="27" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.Должности#/">
+			</entity>
+			<entity x="-786" y="554" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.ГражданствоСотрудников#/">
+			</entity>
+			<entity x="-116" y="96" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.НоменклатураИнгредиентов#/">
+			</entity>
+			<entity x="-116" y="191" width="200" height="55" eClass="Catalog" uri="bm://Вкусмомент/Catalog.НоменклатураПродукции#/">
+			</entity>
+			<entity x="-786" y="621" width="200" height="17" eClass="Enum" uri="bm://Вкусмомент/Enum.ВидПозицииКомпонента#/">
+			</entity>
+		</entities>
+		<relations for="main">
+			<relation source="Справочник.НоменклатураПродукции" target="Справочник.НоменклатураИнгредиентов">
+			</relation>
+			<relation source="Справочник.Филиалы" target="Перечисление.ТипФилиала">
+			</relation>
+			<relation source="Справочник.ОбъектМеню" target="Справочник.НоменклатураПродукции">
+			</relation>
+			<relation source="Справочник.ВидРабочегоМеста" target="Перечисление.РольВидаРабочегоМеста">
+			</relation>
+			<relation source="Справочник.Клиенты" target="Перечисление.Пол">
+			</relation>
+			<relation source="Справочник.Сотрудники" target="Перечисление.Пол">
+			</relation>
+			<relation source="Справочник.НоменклатураПродукции" target="Справочник.КатегорииПродукции">
+			</relation>
+			<relation source="Справочник.ОбъектМеню" target="Справочник.НоменклатураИнгредиентов">
+			</relation>
+			<relation source="Справочник.Филиалы" target="Справочник.ВидРабочегоМеста">
+			</relation>
+			<relation source="Справочник.НоменклатураИнгредиентов" target="Перечисление.ЕдиницыИзмерения">
+			</relation>
+			<relation source="Справочник.НоменклатураПродукции" target="Перечисление.ВидПозицииКомпонента">
+			</relation>
+			<relation source="Справочник.Меню" target="Справочник.Филиалы">
+			</relation>
+			<relation source="Справочник.Сотрудники" target="Перечисление.ГражданствоСотрудников">
+			</relation>
+			<relation source="Справочник.ОбъектМеню" target="Перечисление.ВидПозицииКомпонента">
+			</relation>
+			<relation source="Справочник.Меню" target="Справочник.ОбъектМеню">
+			</relation>
+			<relation source="Справочник.Сотрудники" target="Справочник.Должности">
+			</relation>
+		</relations>
+	</tab>
+</diagram>

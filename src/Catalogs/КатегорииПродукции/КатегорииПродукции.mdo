@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f070c4f6-4b7a-4a08-89c3-44a26e022284">
+  <producedTypes>
+    <objectType typeId="a353adf6-2fd5-4b19-8125-a7ca75ce94ae" valueTypeId="fe215de4-e66c-44f1-bfd8-700e67397093"/>
+    <refType typeId="4906b09b-d2d1-4494-88a9-3f90f0a2f90e" valueTypeId="7bf03569-115b-400d-a173-3f53d6c5bc56"/>
+    <selectionType typeId="737bcfb3-ee47-47a0-bb4d-1632358b5cd4" valueTypeId="885996ad-42e7-467a-ac91-663c9fe1e9b7"/>
+    <listType typeId="cba7f387-3c87-4328-a3ca-fe59a2f61250" valueTypeId="21028149-0343-4179-9c3d-6a70479ffffc"/>
+    <managerType typeId="196f3280-bd5d-414f-8eb9-636ef07a798c" valueTypeId="bac780de-fa50-4015-84e6-d0347c16bed7"/>
+  </producedTypes>
+  <name>КатегорииПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииПродукции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииПродукции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="130101d0-f50c-41e0-965f-fd3365a5ae42">
+    <name>ПриоритетМеню</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет меню</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7787cc08-14ad-44d2-a69d-a7c78832b74d">
+    <name>ПриоритетГотовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет готовки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="352397ee-c4d7-42cb-9b80-e366d68dc129">
+    <name>РодительскаяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительская категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

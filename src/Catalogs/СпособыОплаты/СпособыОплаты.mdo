@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b493a98-bd71-40c2-8ea5-21297f73760c">
+  <producedTypes>
+    <objectType typeId="617612ec-8dce-4b15-98c9-37270f58166b" valueTypeId="42de99c2-cfd8-4487-853d-7c701557d23e"/>
+    <refType typeId="0ccfcbb8-2038-44b4-95c6-96b65129ea13" valueTypeId="918ab5c2-1df6-4830-a1db-8418834e08e4"/>
+    <selectionType typeId="d1471c6b-a844-4a3b-8ff0-e9586c2d86b4" valueTypeId="ece402b1-79c4-4e63-bd5b-087c1f5b25c1"/>
+    <listType typeId="fe2a5855-fd9a-43d9-8495-ed30f7ff888c" valueTypeId="c717663e-263f-49a2-8477-ff8c35855877"/>
+    <managerType typeId="389608d2-5053-49ae-bd26-e52d773ba5d9" valueTypeId="4d394ffc-5483-400e-9899-b4ad6c136b9f"/>
+  </producedTypes>
+  <name>СпособыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыОплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпособыОплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8b3ce0fb-6e36-4a64-b482-3650b7efba62">
+    <name>ИдентификаторВСистемеККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор в системе ККТ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71353def-c4a0-4cc8-9a8a-78a64d7eb20a">
+  <name>Вкусмомент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вкусмомент</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8dbfb55d-7910-4b5c-a745-f2b137d58618"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="433d4a9a-2cc8-4555-9d4c-c89baa053ff1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="918ee0dd-683d-4cbe-b97c-9ef4cac48f08"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9a27fd15-d9c5-4ccc-a729-47e8758de008"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c9dd2451-65df-471b-8bb4-5590dedf707e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f0a4761f-a4c1-4d5c-bf7e-32c82b20015f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2e224278-208a-4809-b4de-36983b7487cc"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Егор Брон</vendor>
+  <version>1.0.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Конфигурация для ПБО</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Демонстрационная конфигурация, предназначенная для &quot;использования&quot; в предприятиях быстрого обслуживания (ПБО), например, ресторанах быстрого питания.</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>(с) Егор Брон</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://bron.blusutils.net</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://f.txts.su/files/</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="f82e46b3-18f0-4235-9ab3-aad9e39ce3dd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.НоменклатураПродукции</catalogs>
+  <catalogs>Catalog.НоменклатураИнгредиентов</catalogs>
+  <catalogs>Catalog.КатегорииПродукции</catalogs>
+  <catalogs>Catalog.Филиалы</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ВидРабочегоМеста</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.СпособыОплаты</catalogs>
+  <catalogs>Catalog.Меню</catalogs>
+  <catalogs>Catalog.ОбъектМеню</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.ВидПозицииКомпонента</enums>
+  <enums>Enum.ТипФилиала</enums>
+  <enums>Enum.РольВидаРабочегоМеста</enums>
+  <enums>Enum.ГражданствоСотрудников</enums>
+  <enums>Enum.Пол</enums>
+</mdclass:Configuration>

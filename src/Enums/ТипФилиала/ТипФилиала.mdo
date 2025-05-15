@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaad156b-7405-4999-b6fb-1f4cd648b7d3">
+  <producedTypes>
+    <refType typeId="c92f2338-4e89-4cf5-a096-849b9533d4fb" valueTypeId="0e8186eb-2a39-4b4c-88a6-527ca7c30a61"/>
+    <listType typeId="f7a419c8-183a-4e00-b487-5b822b11364c" valueTypeId="3e320b6c-cccc-4251-b8e0-952c6de3d3ef"/>
+    <managerType typeId="23a254b1-5ec0-4626-baa1-fd7a413afc84" valueTypeId="a0101af5-a6c9-4cc8-8586-328bd72395b7"/>
+  </producedTypes>
+  <name>ТипФилиала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип филиала</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="52fb0dab-e32c-4115-b025-88d065452c23">
+    <name>ТочкаОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка обслуживания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d723342-292d-444d-81b0-ca3171bb9d5c">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c3771c4-03ab-4b4b-a77e-2ffb7857194a">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

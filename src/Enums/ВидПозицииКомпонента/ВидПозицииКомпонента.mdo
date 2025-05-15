@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49cf09fc-2269-4e61-bdfb-8a3701488363">
+  <producedTypes>
+    <refType typeId="9410fc2c-34d4-4013-9aa9-f2026c81957b" valueTypeId="ba35e095-4710-4b00-9431-d9f52d8f7b5b"/>
+    <listType typeId="c11d0375-b069-482e-9774-80c1b20b62d4" valueTypeId="bd3703e8-a852-4e72-9407-c87c52ef2e3f"/>
+    <managerType typeId="6012a6b3-0964-4136-8192-681c915f5c8c" valueTypeId="b21e25f4-109b-4364-8c84-8d7be164d383"/>
+  </producedTypes>
+  <name>ВидПозицииКомпонента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид позиции компонента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1eb6bd3-b0e4-4be8-bc17-d3fce5f030c1">
+    <name>Обязательный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный</value>
+    </synonym>
+    <comment>Строго обязательный ингредиент</comment>
+  </enumValues>
+  <enumValues uuid="e056dbb9-8eaf-4ab3-b956-ad077753783b">
+    <name>ОбязательныйИОпция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный и опция</value>
+    </synonym>
+    <comment>Обязательный ингредиент, который можно убрать</comment>
+  </enumValues>
+  <enumValues uuid="c158d956-5f1d-40e6-b168-4f694309bedc">
+    <name>Опциональный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опциональный</value>
+    </synonym>
+    <comment>Ингредиент можно добавить, не идет по умолчанию</comment>
+  </enumValues>
+  <enumValues uuid="bfe345d5-1d42-4293-91cf-6f703b356ede">
+    <name>ОпцияДополнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный или опция дополнения</value>
+    </synonym>
+    <comment>Ингредиент обязателен И можно добавить его еще</comment>
+  </enumValues>
+</mdclass:Enum>

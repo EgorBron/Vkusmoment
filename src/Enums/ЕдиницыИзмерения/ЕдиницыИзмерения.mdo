@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="357b5b1e-1231-4cf5-96e8-3dca35ce78ee">
+  <producedTypes>
+    <refType typeId="68158320-019f-4ee7-a88e-82d2f1e7ab4c" valueTypeId="51b60795-5ae8-4e94-a459-831e21298794"/>
+    <listType typeId="0da6a5fa-6af7-4c1f-a247-0ab880f03470" valueTypeId="83bd4c54-d81e-4076-aa59-3832232c486f"/>
+    <managerType typeId="369dcac5-26a6-4b76-a983-17acc69c84fa" valueTypeId="6096f096-d93b-4d77-9eee-beb5eec5f792"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd48ff3f-534a-4022-ab1c-f30c087ab957">
+    <name>Литры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Литры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18225d56-24c0-4534-b223-0ab8c6056279">
+    <name>Килограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Килограммы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ba5c821-1d00-4cba-a8ff-25028d21a58c">
+    <name>Штуки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штуки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

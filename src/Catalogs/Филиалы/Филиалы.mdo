@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdb3af85-1a26-4015-ac15-7b7346db16ff">
+  <producedTypes>
+    <objectType typeId="4c136ecb-a521-49b7-853e-6b65714967b1" valueTypeId="958fe6d7-377c-4577-89d4-8d139f43773f"/>
+    <refType typeId="1fc9ac93-8851-4df9-80f0-169005bff1f9" valueTypeId="f8cc0a9a-59ef-4041-ae1e-40cc76bf51e4"/>
+    <selectionType typeId="44581e18-3834-477c-bae9-bdf06961f019" valueTypeId="7e774c4b-782e-48e2-a47d-995cc021b568"/>
+    <listType typeId="78678006-7ec1-4b8d-a33f-ebd5fa8b236b" valueTypeId="b68ca93f-d4c3-416e-ac92-92670839e97c"/>
+    <managerType typeId="b5d6bacc-86a4-46d2-82db-8715db71c902" valueTypeId="3bb18393-b758-4271-ab12-7dbf5b7cafa0"/>
+  </producedTypes>
+  <name>Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e57e6608-1851-4586-8920-922faf7d3834">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdb5f1ec-cd14-404d-860b-5f3febdd7c4e">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d00e538b-7b86-4562-ac1b-198ae27c151c">
+    <name>ТипФилиала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип филиала</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипФилиала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85805eda-32d6-4a08-8937-5497f12092b3">
+    <name>ГеографическиеКоординаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Географические координаты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cc061773-7e2f-41e8-a3a7-84124037916b">
+    <producedTypes>
+      <objectType typeId="be0a052f-9a0e-48bf-8631-38787beecea9" valueTypeId="1e070f78-6e04-407a-9c63-81b4fe4104e9"/>
+      <rowType typeId="4c6e18e9-3661-4a0a-b370-4893b95003ad" valueTypeId="67ba5d65-3f90-4134-83ec-ae6a29b8bb20"/>
+    </producedTypes>
+    <name>РабочиеМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие места</value>
+    </synonym>
+    <attributes uuid="a6fb2a1d-5199-4fc4-9932-abaa922f1b84">
+      <name>ВидРабочегоМеста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид рабочего места</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидРабочегоМеста</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="eda68171-100f-4efa-8518-2eca744ccb41">
+    <producedTypes>
+      <objectType typeId="28eeb386-08b0-45ab-a325-91ee672924a3" valueTypeId="330dc646-ae76-4fbd-9250-e89c42da5ce7"/>
+      <rowType typeId="97630c25-bc78-4514-8055-f8f68509528d" valueTypeId="8491bd63-9930-4fb8-8bc0-b230f88a47ce"/>
+    </producedTypes>
+    <name>ПотребительскиеМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребительские места</value>
+    </synonym>
+    <attributes uuid="e6e4e1bf-8fe0-425b-bfe9-10641ad17d7e">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba96a2e6-a2a0-47a4-bbb6-cd8f13fb2f62">
+  <producedTypes>
+    <refType typeId="0636b0ac-73f4-4d0a-b889-b219925b6459" valueTypeId="9f9d36da-ccc2-4bfc-9a2b-24abc690b289"/>
+    <listType typeId="8ddec3d4-74f3-4262-9a09-e9160db867f4" valueTypeId="faee2bf3-7457-4bd9-a68b-826812400e9f"/>
+    <managerType typeId="e6fdb176-a35a-4832-b845-bbdc165340c1" valueTypeId="c0b4c4d5-1d1c-4f01-9fb9-5535f2f8e615"/>
+  </producedTypes>
+  <name>ГражданствоСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гражданство сотрудников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74258c92-04e2-4d86-b1aa-c38e028b0fa0">
+    <name>РоссийскаяФедерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Российская Федерация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="477c35ff-02ae-4c74-87ab-66378d32f572">
+    <name>ИностранноеГражданство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранное гражданство</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

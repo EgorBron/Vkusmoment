@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b73057-2b11-4224-a7a3-8d3eb4aa997b">
+  <producedTypes>
+    <objectType typeId="a9a1b13f-6cde-49a5-929e-fb66f0499441" valueTypeId="337056b2-ea6f-4be8-bd2b-39787806fc7b"/>
+    <refType typeId="b29f9e67-a1bc-463c-99f4-b08ac94939d8" valueTypeId="755979fa-74bf-4bf3-a61b-c842ea87f7b2"/>
+    <selectionType typeId="b20b047e-3327-4f04-8856-28248162c1c7" valueTypeId="e27f872a-25bd-4a54-9335-d49feae9f647"/>
+    <listType typeId="2fa97253-d8fa-4ffc-981c-9c04670f4038" valueTypeId="d5468421-caa3-4832-bd4a-35ab62e6cb83"/>
+    <managerType typeId="4cc72ad7-b9c3-4b99-9735-a800bb60e6d7" valueTypeId="e7e5ab9e-1367-4b51-8bea-8f174530eaf1"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ad86783a-eac5-4e56-8e5d-8c42ce4f116a">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5807d042-b301-42b2-b08f-8af8c1aaae0d">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="962538b1-48ad-406d-89ae-f311f9f0dc35">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="dd3db1b1-9658-4654-8b61-52e5d9b630f4">
+    <producedTypes>
+      <objectType typeId="02a34726-4ba7-4100-b249-a10149a183ac" valueTypeId="1b6bef11-c866-4756-9a0f-5448f46246ec"/>
+      <rowType typeId="ffba45e4-b73e-4444-b853-55bf73d75ed4" valueTypeId="24e1fd4b-1a0d-49a6-be3e-87089ed6805b"/>
+    </producedTypes>
+    <name>КонтактныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные данные</value>
+    </synonym>
+    <attributes uuid="a43aa6ad-d6a7-4624-9e89-33f8cef75d81">
+      <name>ЕдиницаДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58368eac-fbe3-4607-9f01-e8b265857883">
+      <name>ЛицоДляСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лицо для связи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

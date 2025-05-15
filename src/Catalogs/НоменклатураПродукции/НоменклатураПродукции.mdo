@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3dfb384-2a2e-44b0-8aab-c8d9026941e1">
+  <producedTypes>
+    <objectType typeId="bbdff877-839d-4966-a5b3-54f8f03e6729" valueTypeId="800b0b5b-d762-4f85-8848-5f34a048fb91"/>
+    <refType typeId="8f4d2293-da3c-4a32-b875-ab512c286640" valueTypeId="52212d41-74a6-47e5-8215-74c0869f5ff7"/>
+    <selectionType typeId="3ac24f7b-4c9a-4520-b071-636ab87acfa3" valueTypeId="4c5c263b-64b4-4884-9184-47b811a7dcd2"/>
+    <listType typeId="f1a4d9c3-4ed1-4afa-8521-00e934b1a73e" valueTypeId="ea48a08a-34df-4273-88fd-145efa3be4e2"/>
+    <managerType typeId="a5748140-99d9-43e2-add0-0a08a1b5d955" valueTypeId="521e76d6-8caa-4f48-9d9c-4e3b0fe9ac03"/>
+  </producedTypes>
+  <name>НоменклатураПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураПродукции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураПродукции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b2b61f8e-fe6b-412c-ac6d-1d7ae7fbec0a">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cce9a74-fd55-477d-8bc7-b37a57a12031">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4edcaad9-9485-49ac-a329-476372239e54">
+    <name>КартинкаТуДу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка ту ду</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08849833-780d-4bdf-b4e8-bd6c234797a8">
+    <name>ДлинноеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длинное описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="87589d9f-fadb-4fd5-a597-5d987b8d718d">
+    <producedTypes>
+      <objectType typeId="0e051a02-56e1-4705-a0c4-9b61457a653b" valueTypeId="9b5085fb-288b-49de-bdf1-8e321d9fee33"/>
+      <rowType typeId="2f9f42f1-5ffb-45b1-9b23-991c39557c4b" valueTypeId="37f4b2bc-a5ec-487a-b5d6-af90383db693"/>
+    </producedTypes>
+    <name>Рецептура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецептура</value>
+    </synonym>
+    <attributes uuid="b2aeaa43-63d8-4a30-b991-ce432e32903e">
+      <name>Ингредиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ингредиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураИнгредиентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4a563d0c-885a-4b0c-938b-6bdc43769713">
+      <name>ВидИнгредиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид ингредиента</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидПозицииКомпонента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="22f82790-7cf9-4487-aeb8-9f2da8e37ea4">
+      <name>Непродовольственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Непродовольственный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

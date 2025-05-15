@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4052e27-213d-4df2-8287-42e0aa7ebbf6">
+  <producedTypes>
+    <objectType typeId="2c6f6026-a9e1-44ac-9357-71a07ee6a6c0" valueTypeId="8e1feef5-958b-4495-95dd-23435e5c1ef6"/>
+    <refType typeId="94f0c5c2-1d24-4ebd-a87d-b005719c1dd9" valueTypeId="737af409-44ca-4931-a8f2-b4a64a3f1b4b"/>
+    <selectionType typeId="759423ff-5b49-4b49-810e-dac423ac705a" valueTypeId="6e411ce2-fff5-4d48-9e2f-933c43e54e18"/>
+    <listType typeId="9830ebbe-c2b4-4725-835c-d9acfbf0de9d" valueTypeId="42023bab-d2d1-496b-8b71-21d885b5208a"/>
+    <managerType typeId="546bf0c6-3254-4517-a63f-0ff769a5563d" valueTypeId="87eec0ce-302c-437e-9424-0c2b476a7f34"/>
+  </producedTypes>
+  <name>НоменклатураИнгредиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура ингредиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураИнгредиентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураИнгредиентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d414796d-deae-4edc-a419-890967646a88">
+    <name>ОтображаемоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображаемое наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74b4966f-3faf-4958-86bf-58d9243a9246">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84b35dae-930b-4c60-a068-6e1dd6865a11">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18d07702-d2a7-43d0-8b5c-b2b1d5b96e7f">
+    <name>ЭнергетическаяЦенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Энергетическая ценность на 100 г (кДж)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d460fc70-4f11-4dcd-8f1b-d598d4bd25d7">
+    <name>Белки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белки на 100 г (г)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ae917dd-244d-4f20-9ebc-a2065725de22">
+    <name>Жиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жиры на 100 г (г)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4277ffe1-425e-408e-b117-f26864e52772">
+    <name>Углеводы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Углеводы на 100 г (г)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10171789-70c2-4d54-b549-174eba1ad826">
+    <name>Сахар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сахара на 100 г (г)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ebac8dc-98e7-4079-aae4-f8c4304ac632">
+    <name>Соль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соли на 100 г (г)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c12e5f61-4009-4bd9-99d9-93126ee9178f">
+    <producedTypes>
+      <objectType typeId="fcffc1a7-b522-4710-adc3-0dbbb88aa8ec" valueTypeId="8fdd36ef-df88-43f2-a5bd-7c7a0c1378c4"/>
+      <rowType typeId="ae450cf3-3b07-43f6-afc2-b2c28a14dee0" valueTypeId="dc76b363-df8a-4b32-8636-b6904a87e3a6"/>
+    </producedTypes>
+    <name>ПотенциальныеАллергены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальные аллергены</value>
+    </synonym>
+    <attributes uuid="ce83c0f9-46a3-47ae-a401-8cc2abccd2bf">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование или описание аллергена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
